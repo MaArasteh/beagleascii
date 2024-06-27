@@ -33,7 +33,7 @@ def main():
     parser.add_argument('message', help="The message to be displayed.")
     parser.add_argument('-ba', '--beagleascii', help="Path to the .beagleascii file.", default='snoopy.beagleascii')
     parser.add_argument('-ext', '--extract', help="Extract ASCII to file", default=None)
-    
+
     args = parser.parse_args()
     
     try:
